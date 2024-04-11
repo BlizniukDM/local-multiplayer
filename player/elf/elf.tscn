@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dfsblpjkgqagr"]
+
+[ext_resource type="PackedScene" uid="uid://cypcaypadjavb" path="res://player/player.tscn" id="1_5rgqc"]
+[ext_resource type="SpriteFrames" uid="uid://kcwwo35ansvb" path="res://player/elf/elf.tres" id="2_rm1xq"]
+
+[node name="Player" instance=ExtResource("1_5rgqc")]
+
+[node name="AnimatedSprite2D" parent="." index="1"]
+sprite_frames = ExtResource("2_rm1xq")
